@@ -12,8 +12,8 @@ export async function createBooking(formData: FormData) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "pacifiquishimwe151@gmail.com",
-        pass: "rxvv xzsh ysta iayz",
+        user: "rangavisuals@gmail.com",
+        pass: "vzwi xpjt nlgb dnpw",
       },
     })
 
