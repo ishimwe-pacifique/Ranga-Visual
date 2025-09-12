@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <Image src="/images/background-lines.jpg" alt="Background" fill className="object-cover" priority />
+        <Image src="/images/background-lines.png" alt="Background" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black/30"></div>
       </div>
 
