@@ -13,12 +13,12 @@ export default function Hero() {
 
       {/* Logo */}
       <div className="absolute top-24 left-1/2 transform -translate-x-1/2">
-        <Image src="/images/ranga-logo-main.png" alt="Ranga Visual Logo" width={200} height={120} />
+        <Image src="/images/ranga-logo-main.png" alt="Ranga Visual Logo" width={300} height={120} />
       </div>
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 mt-20">
         <h1 className="text-6xl md:text-8xl font-bold mb-6">
-          <span className="text-white">Ranga</span> <span className="text-cyan-400">Visual</span>
+          <span className="text-white">Ranga</span> <span className="text-cyan-400">Visuals</span>
         </h1>
         <p className="text-2xl md:text-3xl text-gray-200 mb-8 font-light">Capture, Create, Rent</p>
         <p className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">

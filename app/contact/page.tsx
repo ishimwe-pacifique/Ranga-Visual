@@ -28,7 +28,7 @@ export default function ContactPage() {
             <CardContent>
               <p className="text-gray-400 mb-4">For bookings and general inquiries</p>
               <Button onClick={handleEmailClick} className="btn-primary w-full">
-                info@rangavisual.com
+                rangavisuals@gmail.com
               </Button>
             </CardContent>
           </Card>
@@ -42,7 +42,8 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-400 mb-4">Speak directly with our team</p>
-              <p className="text-white text-lg font-semibold">+1 (555) 123-4567</p>
+              <p className="text-white text-lg font-semibold">+250 786 008 625</p>
+              <p className="text-white text-lg font-semibold">+250 783 897 631</p>
             </CardContent>
           </Card>
         </div>
@@ -57,11 +58,11 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-400">
-                123 Creative District
+                KIGALI-KIMIRONKO
                 <br />
-                Studio City, CA 91604
+                Opposite side of COPEDU
                 <br />
-                United States
+                Kk 11 AVENUES
               </p>
             </CardContent>
           </Card>
@@ -75,9 +76,9 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent>
               <div className="text-gray-400 space-y-1">
-                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p>Saturday: 10:00 AM - 4:00 PM</p>
-                <p>Sunday: Closed</p>
+                <p>Monday - Friday: 8:00 AM - 19:00 PM</p>
+                <p>Saturday: 10:00 AM - 18:00 PM</p>
+                <p>Sunday: 14:00 AM - 19:00 PM</p>
               </div>
             </CardContent>
           </Card>

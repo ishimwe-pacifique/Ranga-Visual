@@ -13,8 +13,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-3">
-            <Image src="/images/ranga-logo-main.png" alt="Ranga Visual Logo" width={40} height={24} />
-            <span className="text-2xl font-bold text-white">Ranga Visual</span>
+            <Image src="/images/ranga-logo-main.png" alt="Ranga Visual Logo" width={100} height={50} />
+            <span className="text-2xl font-bold text-white">Ranga Visuals</span>
           </Link>
 
           <div className="hidden md:flex flex-grow justify-center">

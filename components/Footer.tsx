@@ -9,8 +9,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <Image src="/images/ranga-logo-main.png" alt="Ranga Visual Logo" width={40} height={24} />
-              <span className="text-2xl font-bold text-white">Ranga Visual</span>
+              <Image src="/images/ranga-logo-main.png" alt="Ranga Visual Logo" width={90} height={500
+              
+              } />
+              <span className="text-2xl font-bold text-white">Ranga Visuals</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
               Professional visual equipment rentals for creators, photographers, and filmmakers. Quality gear,
@@ -72,7 +74,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2024 Ranga Visual. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Ranga Visual. All rights reserved.</p>
         </div>
       </div>
     </footer>
