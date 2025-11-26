@@ -6,6 +6,15 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
+       <div className="absolute inset-0">
+        <Image src="/images/background-lines.png" alt="Background" fill className="object-cover" priority />
+        <div className="absolute inset-0 bg-black/30"></div>
+      </div>
+
+      {/* Logo */}
+       <div className="absolute top-24 left-1/2 transform -translate-x-1/2">
+        <Image src="/images/ranga-logo-main.png" alt=“ranga” width={300} height={120} />
+      </div> 
      
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 mt-20">
